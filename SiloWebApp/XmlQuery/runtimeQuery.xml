@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<statements>
+  <statement name="StrainDaysAgo">
+    <![CDATA[SELECT MEASURE_TIME,
+              P1_4150_10_E_L, P1_4150_10_E_H, P1_4150_10_W_L, P1_4150_10_W_H, P1_4150_10_S_L, P1_4150_10_S_H, P1_4150_10_N_L, P1_4150_10_N_H, 
+              P1_4000_10_E, P1_4000_10_W, P1_4000_10_S, P1_4000_10_N, 
+              P2_4150_20_E_L, P2_4150_20_E_H, P2_4150_20_W_L, P2_4150_20_W_H, P2_4150_20_S_L, P2_4150_20_S_H, P2_4150_20_N_L, P2_4150_20_N_H, 
+              P3_4150_10_E_L, P3_4150_10_E_H, P3_4150_10_W_L, P3_4150_10_W_H, P3_4150_10_S_L, P3_4150_10_S_H, P3_4150_10_N_L, P3_4150_10_N_H, 
+              P3_4000_10_E, P3_4000_10_W, P3_4000_10_S, P3_4000_10_N, 
+              P4_4150_22_E_L, P4_4150_22_E_H, P4_4150_22_W_L, P4_4150_22_W_H, P4_4150_22_S_L, P4_4150_22_S_H, P4_4150_22_N_L, P4_4150_22_N_H 
+             FROM STRAIN 
+             WHERE TO_DAYS(NOW()) - TO_DAYS(MEASURE_TIME) <= {0}
+             ORDER BY MEASURE_TIME ASC]]>
+  </statement>
+</statements>

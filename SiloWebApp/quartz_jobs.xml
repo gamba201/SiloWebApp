@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<job-scheduling-data xmlns="http://quartznet.sourceforge.net/JobSchedulingData"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ 				version="2.0">
+
+  <schedule>
+    <job>
+      <name>DataSetting</name>
+      <group>DataGroup</group>
+      <description>File to DB setting Job</description>
+      <job-type>SiloWebApp.Scheduler.Scheduler5Min, SiloWebApp</job-type>
+      <!--      클래스이름(네임 스페이스 포함.)          어셈블리이름 -->
+    </job>
+    <job>
+      <name>NewTable</name>
+      <group>DataGroup</group>
+      <description>Make Next Year Table</description>
+      <job-type>SiloWebApp.Scheduler.Scheduler1Year, SiloWebApp</job-type>
+    <!--      클래스이름(네임 스페이스 포함.)          어셈블리이름 -->
+    </job>
+
+    <trigger>
+      <cron>
+        <name>DataSettingTrigger</name>
+        <group>DataTriggerGroup</group>
+        <job-name>DataSetting</job-name>
+        <job-group>DataGroup</job-group>
+        <!-- trigger every 5min -->
+        <cron-expression>10 1,6,11,16,21,26,31,36,41,46,51,56 * * * ?</cron-expression>
+      </cron>
+    </trigger>
+    
+    <trigger>
+      <cron>
+        <name>NewTableTrigger</name>
+        <group>NewTableTriggerGroup</group>
+        <job-name>NewTable</job-name>
+        <job-group>DataGroup</job-group>
+        
+    <!-- trigger every 1Year -->
+        <!--매년 12월 20일 자정에 다음해에 필요한 테이블 생성-->
+    
+        <cron-expression>0 0 0 20 12 ?</cron-expression>
+      </cron>
+    </trigger>
+
+  </schedule>
+</job-scheduling-data>
+
+

@@ -1,0 +1,55 @@
+DEBUG 2017-05-12 12:11:52,978 46498ms StrainController       Get                - connection opened
+INFO  2017-05-12 12:11:53,016 46536ms StrainController       Get                - info TEst
+DEBUG 2017-05-12 12:14:31,975  1853ms StrainController       Get                - connection opened
+INFO  2017-05-12 12:14:31,999  1877ms StrainController       Get                - info TEst
+DEBUG 2017-05-12 12:15:42,074   953ms StrainController       Get                - connection opened
+INFO  2017-05-12 12:15:42,099   978ms StrainController       Get                - info TEst
+DEBUG 2017-05-12 12:15:54,336 13215ms StrainController       Get                - connection opened
+INFO  2017-05-12 12:15:54,337 13216ms StrainController       Get                - info TEst
+DEBUG 2017-05-12 12:17:24,304  1024ms StrainController       Get                - connection opened
+INFO  2017-05-12 12:17:24,345  1065ms StrainController       Get                - info TEst
+DEBUG 2017-05-12 13:54:54,740  4733ms StrainController       Get                - connection opened
+INFO  2017-05-12 13:54:54,762  4755ms StrainController       Get                - info TEst
+DEBUG 2017-05-12 13:57:07,031 17673ms StrainController       Get                - connection opened
+INFO  2017-05-12 13:57:07,077 17718ms StrainController       Get                - info TEst
+2017-05-12 14:01:24,605 [17] INFO  SiloWebApp.Controllers.StrainController [(null)] - info TEst
+2017-05-12 14:11:54,447 [17] INFO  SiloWebApp.Controllers.StrainController [(null)] - info TEst
+2017-05-12 14:42:08,787 [17] INFO  SiloWebApp.Controllers.StrainController [(null)] - info TEst
+2017-05-12 14:54:23,871 [9] INFO  SiloWebApp.Controllers.StrainController [(null)] - info TEst
+2017-05-12 14:55:10,675 [17] INFO  SiloWebApp.Controllers.StrainController [(null)] - info TEst
+[ 2017-05-12 15:03:19,962 ] [1] [ DEBUG ] SiloWebApp.Scheduler.PrepareJob - Error Create Raw Table
+[ 2017-05-12 15:04:17,716 ] [1] [ DEBUG ] SiloWebApp.Scheduler.PrepareJob - Error Create Raw Table1
+[ 2017-05-12 15:07:57,140 ] [1] [ DEBUG ] SiloWebApp.Scheduler.PrepareJobSystem.Data.Odbc.OdbcException (0x80131937): ERROR [42000] [MySQL][ODBC 5.2(a) Driver][mysqld-5.5.5-10.1.21-MariaDB]You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREAT TABLE IF NOT EXISTS P1_RAW (
+        MEASURE_TIME        TIMESTAMP   NOT ' at line 1
+   위치: System.Data.Odbc.OdbcConnection.HandleError(OdbcHandle hrHandle, RetCode retcode)
+   위치: System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader, Object[] methodArguments, SQL_API odbcApiMethod)
+   위치: System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader)
+   위치: System.Data.Odbc.OdbcCommand.ExecuteNonQuery()
+   위치: SiloWebApp.Scheduler.PrepareJob.CreateTable(OdbcCommand cmd, XmlDocument xml, String crtName) 파일 D:\CSharpPJ\SiloWebApp\SiloWebApp\Scheduler\PrepareJob.cs:줄 72
+ - Error Create Raw Table1
+[ 2017-05-12 15:15:32,690 ] [1] [ DEBUG ] SiloWebApp.Scheduler.PrepareJob"Error Create Raw Table1" - System.Data.Odbc.OdbcException (0x80131937): ERROR [42000] [MySQL][ODBC 5.2(a) Driver][mysqld-5.5.5-10.1.21-MariaDB]You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREAT TABLE IF NOT EXISTS P1_RAW (
+        MEASURE_TIME        TIMESTAMP   NOT ' at line 1
+   위치: System.Data.Odbc.OdbcConnection.HandleError(OdbcHandle hrHandle, RetCode retcode)
+   위치: System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader, Object[] methodArguments, SQL_API odbcApiMethod)
+   위치: System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader)
+   위치: System.Data.Odbc.OdbcCommand.ExecuteNonQuery()
+   위치: SiloWebApp.Scheduler.PrepareJob.CreateTable(OdbcCommand cmd, XmlDocument xml, String crtName) 파일 D:\CSharpPJ\SiloWebApp\SiloWebApp\Scheduler\PrepareJob.cs:줄 72
+
+[ 2017-05-12 15:16:49,115 ] [1] [ DEBUG ] SiloWebApp.Scheduler.PrepareJob : "Error Create Raw Table1" - System.Data.Odbc.OdbcException (0x80131937): ERROR [42000] [MySQL][ODBC 5.2(a) Driver][mysqld-5.5.5-10.1.21-MariaDB]You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREAT TABLE IF NOT EXISTS P1_RAW (
+        MEASURE_TIME        TIMESTAMP   NOT ' at line 1
+   위치: System.Data.Odbc.OdbcConnection.HandleError(OdbcHandle hrHandle, RetCode retcode)
+   위치: System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader, Object[] methodArguments, SQL_API odbcApiMethod)
+   위치: System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader)
+   위치: System.Data.Odbc.OdbcCommand.ExecuteNonQuery()
+   위치: SiloWebApp.Scheduler.PrepareJob.CreateTable(OdbcCommand cmd, XmlDocument xml, String crtName) 파일 D:\CSharpPJ\SiloWebApp\SiloWebApp\Scheduler\PrepareJob.cs:줄 72
+
+[ 2017-05-12 15:28:42,850 ] [1] [ ERROR ] SiloWebApp.Scheduler.PrepareJob : "Error Creating Raw Table" - System.Data.Odbc.OdbcException (0x80131937): ERROR [42000] [MySQL][ODBC 5.2(a) Driver][mysqld-5.5.5-10.1.21-MariaDB]You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'CREAT TABLE IF NOT EXISTS P1_RAW (
+        MEASURE_TIME        TIMESTAMP   NOT ' at line 1
+   위치: System.Data.Odbc.OdbcConnection.HandleError(OdbcHandle hrHandle, RetCode retcode)
+   위치: System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader, Object[] methodArguments, SQL_API odbcApiMethod)
+   위치: System.Data.Odbc.OdbcCommand.ExecuteReaderObject(CommandBehavior behavior, String method, Boolean needReader)
+   위치: System.Data.Odbc.OdbcCommand.ExecuteNonQuery()
+   위치: SiloWebApp.Scheduler.PrepareJob.CreateTable(OdbcCommand cmd, XmlDocument xml, String crtName) 파일 D:\CSharpPJ\SiloWebApp\SiloWebApp\Scheduler\PrepareJob.cs:줄 72
+
+[ 2017-05-12 15:33:00,042 ] [DefaultQuartzScheduler_Worker-1] [ DEBUG ] SiloWebApp.Scheduler.DataOrderScheduler : "dfdsf" - 
+[ 2017-05-12 15:33:00,070 ] [DefaultQuartzScheduler_Worker-1] [ DEBUG ] SiloWebApp.Scheduler.DataOrderScheduler : "dfdsf" - 

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<statements>
+  <statement name="hasData">
+    <![CDATA[SELECT COUNT(*) FROM {0}]]>
+  </statement>
+  <statement name="COLUMNS">
+    <![CDATA[CREATE TABLE IF NOT EXISTS COLUMNS (
+        TAB           VARCHAR(400)     NOT NULL,
+        COLIDX        INT             NOT NULL,
+        COLNAME       VARCHAR(40)     NOT NULL )]]>
+  </statement>
+  <statement name="MEMBER">
+    <![CDATA[CREATE TABLE IF NOT EXISTS MEMBER (
+        ID              VARCHAR(20)   NOT NULL,
+        NAME            VARCHAR(20)   NOT NULL,
+        PW              VARCHAR(200)  NOT NULL,
+        ENTRY           TIMESTAMP     NOT NULL,
+        MODIFICATION    TIMESTAMP     NOT NULL,
+        LEVEL           INT           NOT NULL,
+        PRIMARY KEY (ID)
+       ) ENGINE = InnoDB]]>
+  </statement>
+  <statement name="HISTORY_SIGN">
+    <![CDATA[CREATE TABLE IF NOT EXISTS HISTORY_SIGN_ON (
+       NO       INT         NOT NULL  AUTO_INCREMENT,
+       ID       VARCHAR(20) NOT NULL,
+       IP       VARCHAR(20) NOT NULL,
+       TIME     TIMESTAMP   NOT NULL,
+       PRIMARY KEY (NO)
+    ) ENGINE = InnoDB]]>
+  </statement>
+  <statement name="HISTORY_LEVEL">
+    <![CDATA[CREATE TABLE IF NOT EXISTS HISTORY_LEVEL (
+       NO         INT         NOT NULL  AUTO_INCREMENT,
+       REG_TIME   DATETIME     NOT NULL,
+       ID         VARCHAR(20) NOT NULL,
+       OVERVIEW   VARCHAR(20) NOT NULL,
+       CONCERN    INT         NOT NULL,
+       CAUTION    INT         NOT NULL,
+       DANGER     INT         NOT NULL,
+       PRIMARY KEY (NO)
+      ) ENGINE = InnoDB]]>
+  </statement>
+  <statement name="INIT_STRAIN">
+    <![CDATA[CREATE TABLE IF NOT EXISTS INIT_STRAIN (
+      NO                  INT         NOT NULL  AUTO_INCREMENT,
+      SILO_NO             INT         NOT NULL,
+      DIRECTION           VARCHAR(6)  NOT NULL,
+      CHANNEL             VARCHAR(20) NOT NULL,
+      STRAIN_INIT         FLOAT(8,3)  NOT NULL,
+      TEMP                FLOAT(6,2)  NOT NULL,
+      CALIBRATION_FACTOR  FLOAT(3,1)  NOT NULL,
+      PRIMARY KEY (NO)
+      ) ENGINE = InnoDB]]>
+  </statement>
+  <statement name="INIT_DISP">
+    <![CDATA[CREATE TABLE IF NOT EXISTS INIT_DISPLACEMENT (
+      NO                  INT           NOT NULL  AUTO_INCREMENT,
+      SILO_NO             INT           NOT NULL,
+      DIRECTION           VARCHAR(6)    NOT NULL,
+      CHANNEL             VARCHAR(20)   NOT NULL,
+      ANGLE               FLOAT(11,9)   NOT NULL,
+      TEMP                FLOAT(6,2)    NOT NULL,
+      SCALE_FACTOR        FLOAT(6,4)    NOT NULL,
+      PRIMARY KEY (NO)
+      ) ENGINE = InnoDB]]>
+  </statement>
+
+  
+</statements>

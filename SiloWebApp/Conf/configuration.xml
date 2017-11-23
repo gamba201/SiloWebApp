@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+  <raw-data-path><![CDATA[D:\업무\싸일로데이터\]]></raw-data-path>
+
+  <raw-column>
+    <p1><![CDATA[1_4150_10_E_L;1_4150_10_E_H;1_4150_10_W_L;1_4150_10_W_H;1_4150_10_S_L;1_4150_10_S_H;1_4150_10_N_L;1_4150_10_N_H;1_4150T_10_E_L;1_4150T_10_E_H;1_4150T_10_W_L;1_4150T_10_W_H;1_4150T_10_S_L;1_4150T_10_S_H;1_4150T_10_N_L;1_4150T_10_N_H;1_4000_10_E;1_4000_10_W;1_4000_10_S;1_4000_10_N;1_4000T_10_E;1_4000T_10_W;1_4000T_10_S;1_4000T_10_N;1_inclo_10_E;1_inclo_20_E;1_inclo_40_E;1_inclo_10_W;1_inclo_20_W;1_inclo_40_W;1_inclo_10_S;1_inclo_20_S;1_inclo_40_S;1_inclo_10_N;1_inclo_20_N;1_inclo_40_N;1_inclo_60_EW;1_inclo_60_SN;1_incloT_10_E;1_incloT_20_E;1_incloT_40_E;1_incloT_10_W;1_incloT_20_W;1_incloT_40_W;1_incloT_10_S;1_incloT_20_S;1_incloT_40_S;1_incloT_10_N;1_incloT_20_N;1_incloT_40_N;1_incloT_60_EW;1_incloT_60_SN]]></p1>
+    <p2><![CDATA[2_4150_20_E_L;2_4150_20_E_H;2_4150_20_W_L;2_4150_20_W_H;2_4150_20_S_L;2_4150_20_S_H;2_4150_20_N_L;2_4150_20_N_H;2_4150T_20_E_L;2_4150T_20_E_H;2_4150T_20_W_L;2_4150T_20_W_H;2_4150T_20_S_L;2_4150T_20_S_H;2_4150T_20_N_L;2_4150T_20_N_H;2_inclo_20_E;2_inclo_30_E;2_inclo_50_E;2_inclo_20_W;2_inclo_30_W;2_inclo_50_W;2_inclo_20_S;2_inclo_30_S;2_inclo_50_S;2_inclo_20_N;2_inclo_30_N;2_inclo_50_N;2_incloT_20_E;2_incloT_30_E;2_incloT_50_E;2_incloT_20_W;2_incloT_30_W;2_incloT_50_W;2_incloT_20_S;2_incloT_30_S;2_incloT_50_S;2_incloT_20_N;2_incloT_30_N;2_incloT_50_N]]></p2>
+    <p3><![CDATA[3_4150_10_E_L;3_4150_10_E_H;3_4150_10_W_L;3_4150_10_W_H;3_4150_10_S_L;3_4150_10_S_H;3_4150_10_N_L;3_4150_10_N_H;3_4150T_10_E_L;3_4150T_10_E_H;3_4150T_10_W_L;3_4150T_10_W_H;3_4150T_10_S_L;3_4150T_10_S_H;3_4150T_10_N_L;3_4150T_10_N_H;3_4000_10_E;3_4000_10_W;3_4000_10_S;3_4000_10_N;3_4000T_10_E;3_4000T_10_W;3_4000T_10_S;3_4000T_10_N;3_inclo_10_E;3_inclo_20_E;3_inclo_40_E;3_inclo_10_W;3_inclo_20_W;3_inclo_40_W;3_inclo_10_S;3_inclo_20_S;3_inclo_40_S;3_inclo_10_N;3_inclo_20_N;3_inclo_40_N;3_inclo_60_EW;3_inclo_60_SN;3_incloT_10_E;3_incloT_20_E;3_incloT_40_E;3_incloT_10_W;3_incloT_20_W;3_incloT_40_W;3_incloT_10_S;3_incloT_20_S;3_incloT_40_S;3_incloT_10_N;3_incloT_20_N;3_incloT_40_N;3_incloT_60_EW;3_incloT_60_SN]]></p3>
+    <p4><![CDATA[4_4150_20_E_L;4_4150_20_E_H;4_4150_20_W_L;4_4150_20_W_H;4_4150_20_S_L;4_4150_20_S_H;4_4150_20_N_L;4_4150_20_N_H;4_4150T_20_E_L;4_4150T_20_E_H;4_4150T_20_W_L;4_4150T_20_W_H;4_4150T_20_S_L;4_4150T_20_S_H;4_4150T_20_N_L;4_4150T_20_N_H;4_inclo_20_E;4_inclo_30_E;4_inclo_50_E;4_inclo_20_W;4_inclo_30_W;4_inclo_50_W;4_inclo_20_S;4_inclo_30_S;4_inclo_50_S;4_inclo_20_N;4_inclo_30_N;4_inclo_50_N;4_incloT_20_E;4_incloT_30_E;4_incloT_50_E;4_incloT_20_W;4_incloT_30_W;4_incloT_50_W;4_incloT_20_S;4_incloT_30_S;4_incloT_50_S;4_incloT_20_N;4_incloT_30_N;4_incloT_50_N]]></p4>
+  </raw-column>
+  <strain-column><![CDATA[1_4150_10_E_L;1_4150_10_E_H;1_4150_10_W_L;1_4150_10_W_H;1_4150_10_S_L;1_4150_10_S_H;1_4150_10_N_L;1_4150_10_N_H;1_4000_10_E;1_4000_10_W;1_4000_10_S;1_4000_10_N;2_4150_20_E_L;2_4150_20_E_H;2_4150_20_W_L;2_4150_20_W_H;2_4150_20_S_L;2_4150_20_S_H;2_4150_20_N_L;2_4150_20_N_H;3_4150_10_E_L;3_4150_10_E_H;3_4150_10_W_L;3_4150_10_W_H;3_4150_10_S_L;3_4150_10_S_H;3_4150_10_N_L;3_4150_10_N_H;3_4000_10_E;3_4000_10_W;3_4000_10_S;3_4000_10_N;4_4150_20_E_L;4_4150_20_E_H;4_4150_20_W_L;4_4150_20_W_H;4_4150_20_S_L;4_4150_20_S_H;4_4150_20_N_L;4_4150_20_N_H]]></strain-column>  
+  <temp-column><![CDATA[1_4150_10_E_L;1_4150_10_E_H;1_4150_10_W_L;1_4150_10_W_H;1_4150_10_S_L;1_4150_10_S_H;1_4150_10_N_L;1_4150_10_N_H;1_4000_10_E;1_4000_10_W;1_4000_10_S;1_4000_10_N;2_4150_20_E_L;2_4150_20_E_H;2_4150_20_W_L;2_4150_20_W_H;2_4150_20_S_L;2_4150_20_S_H;2_4150_20_N_L;2_4150_20_N_H;3_4150_10_E_L;3_4150_10_E_H;3_4150_10_W_L;3_4150_10_W_H;3_4150_10_S_L;3_4150_10_S_H;3_4150_10_N_L;3_4150_10_N_H;3_4000_10_E;3_4000_10_W;3_4000_10_S;3_4000_10_N;4_4150_20_E_L;4_4150_20_E_H;4_4150_20_W_L;4_4150_20_W_H;4_4150_20_S_L;4_4150_20_S_H;4_4150_20_N_L;4_4150_20_N_H]]></temp-column>
+  <disp-column><![CDATA[1_inclo_10_E;1_inclo_20_E;1_inclo_40_E;1_inclo_10_W;1_inclo_20_W;1_inclo_40_W;1_inclo_10_S;1_inclo_20_S;1_inclo_40_S;1_inclo_10_N;1_inclo_20_N;1_inclo_40_N;2_inclo_20_E;2_inclo_30_E;2_inclo_50_E;2_inclo_20_W;2_inclo_30_W;2_inclo_50_W;2_inclo_20_S;2_inclo_30_S;2_inclo_50_S;2_inclo_20_N;2_inclo_30_N;2_inclo_50_N;3_inclo_10_E;3_inclo_20_E;3_inclo_40_E;3_inclo_10_W;3_inclo_20_W;3_inclo_40_W;3_inclo_10_S;3_inclo_20_S;3_inclo_40_S;3_inclo_10_N;3_inclo_20_N;3_inclo_40_N;4_inclo_20_E;4_inclo_30_E;4_inclo_50_E;4_inclo_20_W;4_inclo_30_W;4_inclo_50_W;4_inclo_20_S;4_inclo_30_S;4_inclo_50_S;4_inclo_20_N;4_inclo_30_N;4_inclo_50_N]]></disp-column>
+  
+  <strain-constant name="P1">
+    <channel><![CDATA[1_4150_10_E_L;1_4150_10_E_H;1_4150_10_W_L;1_4150_10_W_H;1_4150_10_S_L;1_4150_10_S_H;1_4150_10_N_L;1_4150_10_N_H;1_4000_10_E;1_4000_10_W;1_4000_10_S;1_4000_10_N]]></channel>
+    <strain><![CDATA[2466.115;2835.898;2828.22;3057.74;2506.61;2663.59;2708.20;2476.61;2366.53;2289.77;2303.78;2425.08]]></strain>
+    <temp><![CDATA[6.33;6.16;4.62;5.05;9.48;9.95;3.60;4.43;8.40;8.28;9.87;8.06]]></temp>
+    <calibration-factor><![CDATA[4.8;4.8;4.8;4.8;4.8;4.8;4.8;1;2;2;2;2]]></calibration-factor>
+  </strain-constant>
+  <strain-constant name="P2">
+    <channel><![CDATA[2_4150_20_E_L;2_4150_20_E_H;2_4150_20_W_L;2_4150_20_W_H;2_4150_20_S_L;2_4150_20_S_H;2_4150_20_N_L;2_4150_20_N_H]]></channel>
+    <strain><![CDATA[2379.67;2457.81;2310.50;2347.31;2247.01;2333.73;2374.62;2332.09]]></strain>
+    <temp><![CDATA[19.17;19.25;19.49;19.80;19.70;19.24;19.82;20.05]]></temp>
+    <calibration-factor><![CDATA[1;1;1;1;1;1;1;1]]></calibration-factor>
+  </strain-constant>
+  <strain-constant name="P3">
+    <channel><![CDATA[3_4150_10_E_L;3_4150_10_E_H;3_4150_10_W_L;3_4150_10_W_H;3_4150_10_S_L;3_4150_10_S_H;3_4150_10_N_L;3_4150_10_N_H;3_4000_10_E;3_4000_10_W;3_4000_10_S;3_4000_10_N]]></channel>
+    <strain><![CDATA[2479.48;2450.92;2512.93;2527.15;2443.03;2450.09;2604.72;2493.43;2181.88;2242.82;2157.48;2442.27]]></strain>
+    <temp><![CDATA[19.48;19.53;20.31;20.70;20.28;20.35;20.51;20.37;18.97;19.10;19.23;19.32]]></temp>
+    <calibration-factor><![CDATA[2;5;8;5;5;6;6;2;2;2;2;2]]></calibration-factor>
+  </strain-constant>
+  <strain-constant name="P4">
+    <channel><![CDATA[4_4150_20_E_L;4_4150_20_E_H;4_4150_20_W_L;4_4150_20_W_H;4_4150_20_S_L;4_4150_20_S_H;4_4150_20_N_L;4_4150_20_N_H]]></channel>
+    <strain><![CDATA[2313.303;2284.393;2476.561;2257.799;2079.447;2335.941;2438.072;2140.204]]></strain>
+    <temp><![CDATA[22.681;22.516;24.431;24.216;25.350;25.297;23.090;23.210]]></temp>
+    <calibration-factor><![CDATA[1;1;1;1;1;1;1;1]]></calibration-factor>
+  </strain-constant>
+  
+  <displacement-constant name="P1">
+    <channel><![CDATA[1_inclo_10_E;1_inclo_20_E;1_inclo_40_E;1_inclo_10_W;1_inclo_20_W;1_inclo_40_W;1_inclo_10_S;1_inclo_20_S;1_inclo_40_S;1_inclo_10_N;1_inclo_20_N;1_inclo_40_N]]></channel>
+    <scale-factor><![CDATA[0.1003;0.0942;0.0993;0.0991;0.099;0.0998;0.1008;0.1014;0.0992;0.1003;0.1001;0.0992]]></scale-factor>
+    <calibration-temp><![CDATA[23.16;23.32;24.75;24.1;24.8;24.99;24.34;23.83;24.54;24.19;23.47;25.22]]></calibration-temp>
+    <angle><![CDATA[-0.003982021;-0.028374428;0.099951024;0.037938212;-0.027625313;0.089496587;0.009962807;-0.016591889;0.079558856;-0.018850065;-0.004039622;0.048687474]]></angle>
+  </displacement-constant>
+  <displacement-constant name="P2">
+    <channel><![CDATA[2_inclo_20_E;2_inclo_30_E;2_inclo_50_E;2_inclo_20_W;2_inclo_30_W;2_inclo_50_W;2_inclo_20_S;2_inclo_30_S;2_inclo_50_S;2_inclo_20_N;2_inclo_30_N;2_inclo_50_N]]></channel>
+    <scale-factor><![CDATA[0.1007;0.1003;0.0985;0.1003;0.0998;0.1004;0.1011;0.1004;0.099;0.1004;0.1007;0.0993]]></scale-factor>
+    <calibration-temp><![CDATA[23.95;24.56;25.05;24.7;24.72;24.48;24.25;23.9;23.49;23.56;24.4;24.49]]></calibration-temp>
+    <angle><![CDATA[0.029467491;0.039340105;0.098339742;0.012722322;-0.007301777;0.104804728;-0.006203667;0.040364912;0.123594162;0.002725928;0.039697287;0.099315116]]></angle>
+  </displacement-constant>
+  <displacement-constant name="P3">
+    <channel><![CDATA[3_inclo_10_E;3_inclo_20_E;3_inclo_40_E;3_inclo_10_W;3_inclo_20_W;3_inclo_40_W;3_inclo_10_S;3_inclo_20_S;3_inclo_40_S;3_inclo_10_N;3_inclo_20_N;3_inclo_40_N]]></channel>
+    <scale-factor><![CDATA[0.1003;0.1002;0.0991;0.1006;0.1001;0.0996;0.1003;0.1009;0.1005;0.0993;0.099;0.0967]]></scale-factor>
+    <calibration-temp><![CDATA[25.47;23.52;23.65;24.8;25.28;24.18;26.14;25.5;23.4;24.72;24.17;24.48]]></calibration-temp>
+    <angle><![CDATA[-0.037230874;0.027479485;-0.044085617;0.006257968;-0.005703953;-0.01845381;-0.018028837;0.058958783;0.012301709;-0.021158061;0.000108079;-0.012878711]]></angle>
+  
+</displacement-constant>
+  <displacement-constant name="P4">
+    <channel><![CDATA[4_inclo_20_E;4_inclo_30_E;4_inclo_50_E;4_inclo_20_W;4_inclo_30_W;4_inclo_50_W;4_inclo_20_S;4_inclo_30_S;4_inclo_50_S;4_inclo_20_N;4_inclo_30_N;4_inclo_50_N]]></channel>
+    <scale-factor><![CDATA[0.101;0.1033;0.1031;0.1041;0.103;0.1035;0.1031;0.1039;0.1028;0.1044;0.1034;0.1042]]></scale-factor>
+    <calibration-temp><![CDATA[24.44;23.81;24.22;24.08;23.7;23.58;24.53;24.04;23.38;24.5;23.47;23]]></calibration-temp>
+    <angle><![CDATA[-0.013267237;0.003749897;-0.019063024;0.002644222;-0.010593293;0.013642932;0.016868923;0.005351513;0.031837408;0.001528673;-0.000730431;-0.016361709]]></angle>
+  </displacement-constant>
+</settings>
