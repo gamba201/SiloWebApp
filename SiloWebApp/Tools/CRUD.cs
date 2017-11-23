@@ -19,8 +19,6 @@ namespace SiloWebApp.Tools
             Error
         }
 
-
-
         public static Dictionary<string, int> Raw_colIdx = new Dictionary<string, int> ();
         public static Dictionary<string, float[]> Strain_initValue = new Dictionary<string, float[]>();
         public static Dictionary<string, float[]> Disp_initValue = new Dictionary<string, float[]>();
