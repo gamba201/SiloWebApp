@@ -52,9 +52,6 @@ namespace SiloWebApp.Tools
             }
         }
 
-        //kldsjfkljsdlfkjs
-
-
         /// <summary>
         /// 가공 데이터 저장 테이블 생성
         /// </summary>
